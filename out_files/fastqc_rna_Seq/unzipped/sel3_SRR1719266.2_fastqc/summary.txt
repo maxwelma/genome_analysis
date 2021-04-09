@@ -1,0 +1,11 @@
+PASS	Basic Statistics	sel3_SRR1719266.2.fastq.gz
+PASS	Per base sequence quality	sel3_SRR1719266.2.fastq.gz
+WARN	Per tile sequence quality	sel3_SRR1719266.2.fastq.gz
+PASS	Per sequence quality scores	sel3_SRR1719266.2.fastq.gz
+PASS	Per base sequence content	sel3_SRR1719266.2.fastq.gz
+WARN	Per sequence GC content	sel3_SRR1719266.2.fastq.gz
+PASS	Per base N content	sel3_SRR1719266.2.fastq.gz
+PASS	Sequence Length Distribution	sel3_SRR1719266.2.fastq.gz
+FAIL	Sequence Duplication Levels	sel3_SRR1719266.2.fastq.gz
+FAIL	Overrepresented sequences	sel3_SRR1719266.2.fastq.gz
+PASS	Adapter Content	sel3_SRR1719266.2.fastq.gz
