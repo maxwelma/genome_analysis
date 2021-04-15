@@ -1,0 +1,5 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	sel3_SRR1719266_1P	/domus/h1/mama5390/genome_analysis/genome_analysis/out_files/fastqc_rna_seq_trimmed/unzipped/sel3_SRR1719266_1P_fastqc/fastqc_data.txt
+FastQC	all_sections	sel3_SRR1719266_1U	/domus/h1/mama5390/genome_analysis/genome_analysis/out_files/fastqc_rna_seq_trimmed/unzipped/sel3_SRR1719266_1U_fastqc/fastqc_data.txt
+FastQC	all_sections	sel3_SRR1719266_2U	/domus/h1/mama5390/genome_analysis/genome_analysis/out_files/fastqc_rna_seq_trimmed/unzipped/sel3_SRR1719266_2U_fastqc/fastqc_data.txt
+FastQC	all_sections	sel3_SRR1719266_2P	/domus/h1/mama5390/genome_analysis/genome_analysis/out_files/fastqc_rna_seq_trimmed/unzipped/sel3_SRR1719266_2P_fastqc/fastqc_data.txt
