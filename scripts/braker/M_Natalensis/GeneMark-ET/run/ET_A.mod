@@ -1,1 +1,1 @@
-/domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/M_Natalensis/GeneMark-ET/run/ET_A_1/ET_A_1.mod
+/domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/M_natalensis/GeneMark-ET/run/ET_A_1/ET_A_1.mod
