@@ -1,0 +1,11 @@
+Use of uninitialized value $ph2 in addition (+) at /sw/bioinfo/GeneMark/4.62-es/rackham/parse_ET.pl line 102.
+Use of uninitialized value $ph2 in division (/) at /sw/bioinfo/GeneMark/4.62-es/rackham/parse_ET.pl line 107.
+Use of uninitialized value $ph2 in division (/) at /sw/bioinfo/GeneMark/4.62-es/rackham/parse_ET.pl line 110.
+Use of uninitialized value $ph2 in division (/) at /sw/bioinfo/GeneMark/4.62-es/rackham/parse_ET.pl line 111.
+Use of uninitialized value $ph2 in division (/) at /sw/bioinfo/GeneMark/4.62-es/rackham/parse_ET.pl line 112.
+Use of uninitialized value $ph2 in division (/) at /sw/bioinfo/GeneMark/4.62-es/rackham/parse_ET.pl line 113.
+Use of uninitialized value $ph2 in division (/) at /sw/bioinfo/GeneMark/4.62-es/rackham/parse_ET.pl line 113.
+Use of uninitialized value $ph2 in division (/) at /sw/bioinfo/GeneMark/4.62-es/rackham/parse_ET.pl line 117.
+Use of uninitialized value in addition (+) at /sw/bioinfo/GeneMark/4.62-es/rackham/parse_ET.pl line 320.
+Use of uninitialized value in addition (+) at /sw/bioinfo/GeneMark/4.62-es/rackham/parse_ET.pl line 321.
+Use of uninitialized value in division (/) at /sw/bioinfo/GeneMark/4.62-es/rackham/parse_ET.pl line 321.

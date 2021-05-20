@@ -1,0 +1,28 @@
+#!/bin/bash -l
+
+#SBATCH -A g2021012
+#SBATCH -M snowy
+#SBATCH -p core
+#SBATCH -n 2
+#SBATCH -t 06:00:00
+#SBATCH -J align_rna
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user matilda.maxwell.5390@student.uu.se
+
+
+# Load modules
+module load bioinfo-tools
+module load gcc star
+
+# commands
+STAR --runThreadN 2 --runMode genomeGenerate --genomeDir ~/genome_analysis/genome_analysis/out_files/assembled_genome_index_ref --genomeFastaFiles ~/genome_analysis/data/raw_data/wgs/sel3_NW_015504249.fa  --genomeChrBinNbits 11 --genomeSAindexNbases 13
+
+for file in /home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/*; do
+echo $file
+file_prefix=${file%%.trim*}
+file_prefix_2=${file_prefix#*P/}
+echo $file_prefix
+echo $file_prefix_2
+STAR --genomeDir /home/mama5390/genome_analysis/genome_analysis/out_files/assembled_genome_index_ref --runThreadN 2 --readFilesCommand gunzip -c --readFilesIn /home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/$file_prefix_2.trim_1P.fastq.gz /home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/$file_prefix_2.trim_2P.fastq.gz --outFileNamePrefix /home/mama5390/genome_analysis/genome_analysis/out_files/star_alignment/new/bam/star_alignment_new_$file_prefix_2 --outSAMtype BAM SortedByCoordinate
+done
+

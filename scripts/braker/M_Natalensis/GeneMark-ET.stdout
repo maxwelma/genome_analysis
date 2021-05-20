@@ -1,0 +1,62 @@
+check before run
+create directories
+commit input data
+soft_mask is in the 'auto' mode. soft_mask was set to: 1000
+data report
+commit training data
+training data report
+prepare initial model
+get GC of sequence
+GC 45
+build initial ET model
+running step ET_A
+running gm.hmm on local system
+1 contigs in training
+concatenate predictions: /domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/M_Natalensis/GeneMark-ET/run/ET_A_1
+training level ET_A: /domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/M_Natalensis/GeneMark-ET/run/ET_A_1
+From 820 loaded 820 and ignored dublications 0
+exon	no_match	match_one	match_two
+Initial	69	2	0
+Internal	49	11	5
+Terminal	64	5	0
+Single	35	0	0
+CDS_no_match	all	short	long	seq_short	seq_long
+CDS_no_match	217	208	9	62089	11069
+Intergenic	all	between_match	seq_match
+Intergenic:	105	0	0
+running step ET_B
+running gm.hmm on local system
+1 contigs in training
+concatenate predictions: /domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/M_Natalensis/GeneMark-ET/run/ET_B_1
+training level ET_B: /domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/M_Natalensis/GeneMark-ET/run/ET_B_1
+From 820 loaded 820 and ignored dublications 0
+exon	no_match	match_one	match_two
+Initial	210	3	0
+Internal	432	20	3
+Terminal	208	5	0
+Single	6	0	0
+CDS_no_match	all	short	long	seq_short	seq_long
+CDS_no_match	856	847	9	125829	11626
+Intergenic	all	between_match	seq_match
+Intergenic:	219	0	0
+running step ET_C
+running gm.hmm on local system
+1 contigs in training
+concatenate predictions: /domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/M_Natalensis/GeneMark-ET/run/ET_C_1
+training level ET_C: /domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/M_Natalensis/GeneMark-ET/run/ET_C_1
+From 820 loaded 820 and ignored dublications 0
+exon	no_match	match_one	match_two
+Initial	183	4	0
+Internal	585	21	4
+Terminal	182	5	0
+Single	10	0	0
+CDS_no_match	all	short	long	seq_short	seq_long
+CDS_no_match	960	952	8	105929	10775
+Intergenic	all	between_match	seq_match
+Intergenic:	197	0	0
+SvsM  0 vs 1
+genes in IvsT all and selected: 433 10
+# estimate 1: 0.868360277136259
+# estimate 2: 0
+# value: 0.868360277136259
+IvsT  0.868360277136259 vs 0.131639722863741

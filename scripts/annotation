@@ -10,27 +10,16 @@
 #SBATCH --mail-user matilda.maxwell.5390@student.uu.se
 
 module load bioinfo-tools
-module load braker/2.1.1_Perl5.24.1
-module load augustus/3.2.3_Perl5.24.1
-module load bamtools/2.5.1
-module load blast/2.9.0+
-module load GenomeThreader/1.7.0
-module load samtools/1.8
-module load GeneMark/4.62-es
-
-module load diamond
-module load cdbfasta
-module load perl_modules
-module load biopython
+module load braker
 
 export GENEMARK_PATH=/sw/bioinfo/GeneMark/4.62-es/snowy
 
-cd $HOME
-source $AUGUSTUS_CONFIG_COPY
-chmod a+w -R $HOME/augustus_config/species
+#cd $HOME
+#source $AUGUSTUS_CONFIG_COPY
+#chmod a+w -R $HOME/augustus_config/species
 
 export AUGUSTUS_CONFIG_PATH=$HOME/augustus_config
 export AUGUSTUS_BIN_PATH=/sw/bioinfo/augustus/3.4.0/snowy/bin
-export AUGUSTUS_SCRIPTS_PATH=/sw/bioinfo/augustus/3.4.0/snowy/bin/augustus
+export AUGUSTUS_SCRIPTS_PATH=/sw/bioinfo/augustus/3.4.0/snowy/scripts
 
-braker.pl --species=M.Natalensis --genome=$HOME/genome_analysis/data/raw_data/wgs/sel3_NW_015504249.fna --bam=$HOME/genome_analysis/genome_analysis/out_files/star_alignment/star_alignment_refAligned.sortedByCoord.out.bam
+braker.pl --species=M_Natalensis --genome=$HOME/genome_analysis/data/raw_data/wgs/sel3_NW_015504249.fna --bam=/home/mama5390/genome_analysis/genome_analysis/out_files/star_alignment/new/bam/star_alignment_new_sel3_SRR1719013Aligned.sortedByCoord.out.bam,/home/mama5390/genome_analysis/genome_analysis/out_files/star_alignment/new/bam/star_alignment_new_sel3_SRR1719014Aligned.sortedByCoord.out.bam,/home/mama5390/genome_analysis/genome_analysis/out_files/star_alignment/new/bam/star_alignment_new_sel3_SRR1719015Aligned.sortedByCoord.out.bam,/home/mama5390/genome_analysis/genome_analysis/out_files/star_alignment/new/bam/star_alignment_new_sel3_SRR1719016Aligned.sortedByCoord.out.bam,/home/mama5390/genome_analysis/genome_analysis/out_files/star_alignment/new/bam/star_alignment_new_sel3_SRR1719017Aligned.sortedByCoord.out.bam,/home/mama5390/genome_analysis/genome_analysis/out_files/star_alignment/new/bam/star_alignment_new_sel3_SRR1719018Aligned.sortedByCoord.out.bam,/home/mama5390/genome_analysis/genome_analysis/out_files/star_alignment/new/bam/star_alignment_new_sel3_SRR1719204Aligned.sortedByCoord.out.bam,/home/mama5390/genome_analysis/genome_analysis/out_files/star_alignment/new/bam/star_alignment_new_sel3_SRR1719206Aligned.sortedByCoord.out.bam,/home/mama5390/genome_analysis/genome_analysis/out_files/star_alignment/new/bam/star_alignment_new_sel3_SRR1719207Aligned.sortedByCoord.out.bam,/home/mama5390/genome_analysis/genome_analysis/out_files/star_alignment/new/bam/star_alignment_new_sel3_SRR1719208Aligned.sortedByCoord.out.bam,/home/mama5390/genome_analysis/genome_analysis/out_files/star_alignment/new/bam/star_alignment_new_sel3_SRR1719209Aligned.sortedByCoord.out.bam,/home/mama5390/genome_analysis/genome_analysis/out_files/star_alignment/new/bam/star_alignment_new_sel3_SRR1719211Aligned.sortedByCoord.out.bam,/home/mama5390/genome_analysis/genome_analysis/out_files/star_alignment/new/bam/star_alignment_new_sel3_SRR1719212Aligned.sortedByCoord.out.bam,/home/mama5390/genome_analysis/genome_analysis/out_files/star_alignment/new/bam/star_alignment_new_sel3_SRR1719213Aligned.sortedByCoord.out.bam,/home/mama5390/genome_analysis/genome_analysis/out_files/star_alignment/new/bam/star_alignment_new_sel3_SRR1719214Aligned.sortedByCoord.out.bam,/home/mama5390/genome_analysis/genome_analysis/out_files/star_alignment/new/bam/star_alignment_new_sel3_SRR1719241Aligned.sortedByCoord.out.bam,/home/mama5390/genome_analysis/genome_analysis/out_files/star_alignment/new/bam/star_alignment_new_sel3_SRR1719242Aligned.sortedByCoord.out.bam --GENEMARK_PATH=/sw/bioinfo/GeneMark/4.62-es/snowy --AUGUSTUS_CONFIG_PATH=$HOME/augustus_config --AUGUSTUS_BIN_PATH=/sw/bioinfo/augustus/3.4.0/snowy/bin --AUGUSTUS_SCRIPTS_PATH=/sw/bioinfo/augustus/3.4.0/snowy/scripts --min_contig=500 --useexisting

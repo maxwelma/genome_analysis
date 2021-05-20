@@ -1,0 +1,36 @@
+May 11 16:24:08 ..... started STAR run
+May 11 16:24:08 ... starting to generate Genome files
+WARNING: --genomeSAindexNbases 13 is too large for the genome size=3381248, which may cause seg-fault at the mapping step. Re-run genome generation with recommended --genomeSAindexNbases 9		 May 11 16:24:08
+May 11 16:24:08 ... starting to sort Suffix Array. This may take a long time...
+May 11 16:24:08 ... sorting Suffix Array chunks and saving them to disk...
+May 11 16:24:11 ... loading chunks from disk, packing SA...
+May 11 16:24:11 ... finished generating suffix array
+May 11 16:24:11 ... generating Suffix Array index
+May 11 16:24:13 ... completed Suffix Array index
+May 11 16:24:13 ... writing Genome to disk ...
+May 11 16:24:13 ... writing Suffix Array to disk ...
+May 11 16:24:13 ... writing SAindex to disk
+May 11 16:24:17 ..... finished successfully
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719013.trim_1P.fastq.gz
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719013
+sel3_SRR1719013
+May 11 16:24:17 ..... started STAR run
+May 11 16:24:17 ..... loading genome
+May 11 16:24:17 ..... started mapping
+May 11 16:25:33 ..... finished mapping
+May 11 16:25:33 ..... finished successfully
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719014.trim_1P.fastq.gz
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719014
+sel3_SRR1719014
+May 11 16:25:33 ..... started STAR run
+May 11 16:25:33 ..... loading genome
+May 11 16:25:34 ..... started mapping
+May 11 16:26:55 ..... finished mapping
+May 11 16:26:55 ..... finished successfully
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719015.trim_1P.fastq.gz
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719015
+sel3_SRR1719015
+May 11 16:26:56 ..... started STAR run
+May 11 16:26:56 ..... loading genome
+May 11 16:26:56 ..... started mapping
+slurmstepd: error: *** JOB 4698279 ON s18 CANCELLED AT 2021-05-11T16:27:08 ***

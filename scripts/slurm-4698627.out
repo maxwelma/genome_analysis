@@ -1,0 +1,35 @@
+augustus/20200703-dd2dd8f : If you see errors about not being able to write to an augustus directory, see 'module help augustus/20200703-dd2dd8f'
+blast/2.2.31+ : the old-format NCBI blast databases are no longer updated after September 2019, use blast/2.9.0+ to search the latest NCBI databases
+GeneMark/4.57-es : A recent key file is needed to use this software and it must exist in your home directory. See 'module help GeneMark/4.57-es'
+GeneMark/4.57-es : A recent key file is needed to use this software and it must exist in your home directory. See 'module help GeneMark/4.57-es'
+diamond/0.9.31 : for available prebuilt databases, see 'module help diamond/0.9.31'
+braker/2.1.5 : GeneMark and augustus may require some setup; see 'module help braker/2.1.5'
+augustus/20200703-dd2dd8f : If you see errors about not being able to write to an augustus directory, see 'module help augustus/20200703-dd2dd8f'
+
+The following have been reloaded with a version change:
+  1) blast/2.2.31+ => blast/2.9.0+
+
+GeneMark/4.62-es : A recent key file is needed to use this software and it must exist in your home directory. See 'module help GeneMark/4.62-es'
+
+The following have been reloaded with a version change:
+  1) GeneMark/4.57-es => GeneMark/4.62-es
+
+diamond/2.0.9 : for available prebuilt databases, see 'module help diamond/2.0.9'
+
+The following have been reloaded with a version change:
+  1) diamond/0.9.31 => diamond/2.0.9
+
+
+The following have been reloaded with a version change:
+  1) biopython/1.76-py3 => biopython/1.78     2) python/3.7.2 => python/3.8.7
+
+Copying Augustus config directory to current directory...adjusting permissions...updating AUGUSTUS_CONFIG_PATH...done
+# To use this config directory, set AUGUSTUS_CONFIG_PATH this way:
+
+export AUGUSTUS_CONFIG_PATH=/home/mama5390/augustus_config
+
+# Tue May 11 18:16:28 2021: Log information is stored in file /domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/braker.log
+ERROR in file /sw/bioinfo/braker/2.1.5/snowy/scripts/braker.pl at line 6373
+Failed to execute: perl /sw/bioinfo/GeneMark/4.62-es/snowy/gmes_petap.pl --verbose --sequence=/domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/genome.fa --min_contig=500 --ET=/domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/genemark_hintsfile.gff --et_score 10 --max_intergenic 50000 --cores=1 --gc_donor 0.001 1>/domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/GeneMark-ET.stdout 2>/domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/errors/GeneMark-ET.stderr
+Failed to execute: perl /sw/bioinfo/GeneMark/4.62-es/snowy/gmes_petap.pl --verbose --sequence=/domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/genome.fa --min_contig=500 --ET=/domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/genemark_hintsfile.gff --et_score 10 --max_intergenic 50000 --cores=1 --gc_donor 0.001 1>/domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/GeneMark-ET.stdout 2>/domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/errors/GeneMark-ET.stderr
+The most common problem is an expired or not present file ~/.gm_key!

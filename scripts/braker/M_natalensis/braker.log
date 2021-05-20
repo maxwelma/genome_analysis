@@ -1,0 +1,66 @@
+# Mon May  3 16:46:17 2021: braker.pl version 2.1.1
+
+# Mon May  3 16:46:17 2021: Configuring of BRAKER for using external tools...
+
+# Mon May  3 16:46:17 2021: Command line flag --AUGUSTUS_CONFIG_PATH was provided. Setting $AUGUSTUS_CONFIG_PATH in braker.pl to /home/mama5390/augustus_config.
+# Mon May  3 16:46:17 2021: Setting $AUGUSTUS_BIN_PATH to command line argument --AUGUSTUS_BIN_PATH value /sw/bioinfo/augustus/3.4.0/snowy/bin.
+# Mon May  3 16:46:17 2021: Setting $AUGUSTUS_SCRIPTS_PATH to command line argument --AUGUSTUS_SCRIPTS_PATH value /sw/bioinfo/augustus/3.4.0/snowy/scripts.
+# Mon May  3 16:46:17 2021: Setting $GENEMARK_PATH to command line argument --GENEMARK_PATH value /sw/bioinfo/GeneMark/4.62-es/snowy.
+# Mon May  3 16:46:17 2021: Did not find environment variable $BAMTOOLS_PATH (either variable does not exist, or the path given in variable does not exist). Will try to set this variable in a different way, later.
+# Mon May  3 16:46:17 2021: Trying to guess $BAMTOOLS_BIN_PATH from location of bamtools executable that is available in your $PATH.
+# Mon May  3 16:46:17 2021: Setting $BAMTOOLS_BIN_PATH to /sw/bioinfo/bamtools/2.5.1/snowy/bin
+# Mon May  3 16:46:17 2021: Did not find environment variable $SAMTOOLS_PATH  (either variable does not exist, or the path given in variable doesnot exist). Will try to set this variable in a different way, later.
+# Mon May  3 16:46:17 2021: Trying to guess $SAMTOOLS_PATH from location of samtools executable in your $PATH.
+# Mon May  3 16:46:17 2021: Setting $SAMTOOLS_PATH to /sw/bioinfo/samtools/1.8/snowy/bin
+# Mon May  3 16:46:17 2021: Did not find environment variable $BLAST_PATH
+# Mon May  3 16:46:17 2021: Trying to guess $BLAST_PATH from location of blastp executable that is available in your $PATH.
+# Mon May  3 16:46:17 2021: Setting $BLAST_PATH to /sw/bioinfo/blast/2.9.0+/snowy/bin
+# Mon May  3 16:46:17 2021: Configuration of BRAKER for using external tools is complete!
+
+# Mon May  3 16:46:17 2021: WARNING: /domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/M_natalensis already exists. Braker will use existing files, if they are newer than the input files. You can choose another working directory with --workingdir=dir or overwrite it with --overwrite.
+# Mon May  3 16:46:17 2021: changing into working directory /domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker
+cd /domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker
+
+# Mon May  3 16:46:17 2021: Creating parameter template files for AUGUSTUS with new_species.pl
+
+# Mon May  3 16:46:17 2021: Converting bam files to hints
+# Mon May  3 16:46:17 2021: Checking bam headers
+# Mon May  3 16:46:17 2021: create header file /domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/M_natalensis/star_alignment_refAligned_header.sam
+/sw/bioinfo/bamtools/2.5.1/snowy/bin/bamtools header -in /home/mama5390/genome_analysis/genome_analysis/out_files/star_alignment/star_alignment_refAligned.sortedByCoord.out.bam > /domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/M_natalensis/star_alignment_refAligned_header.sam
+
+# Mon May  3 16:46:17 2021: Deleting SAM header file /domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/M_natalensis/star_alignment_refAligned_header.sam (will not be needed from here on)
+# Mon May  3 16:46:17 2021: Deleting /domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/M_natalensis/star_alignment_refAligned_new_header.sam
+# Mon May  3 16:46:17 2021: make hints from BAM file /home/mama5390/genome_analysis/genome_analysis/out_files/star_alignment/star_alignment_refAligned.sortedByCoord.out.bam
+/sw/bioinfo/augustus/3.4.0/snowy/bin/bam2hints --intronsonly --in=/home/mama5390/genome_analysis/genome_analysis/out_files/star_alignment/star_alignment_refAligned.sortedByCoord.out.bam --out=/domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/M_natalensis/bam2hints.temp.0.gff 1> /domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/M_natalensis/errors/bam2hints.0.stdout 2>/domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/M_natalensis/errors/bam2hints.0.stderr
+
+
+# Mon May  3 16:46:19 2021: add hints from BAM file /home/mama5390/genome_analysis/genome_analysis/out_files/star_alignment/star_alignment_refAligned.sortedByCoord.out.bam to hints file
+cat /domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/M_natalensis/bam2hints.temp.0.gff >>/domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/M_natalensis/hintsfile.temp.gff
+
+# Mon May  3 16:46:20 2021: Joining hints that are identical (& from the same source) into multiplicity hints (input file /domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/M_natalensis/hintsfile.temp.gff)
+
+# Mon May  3 16:46:20 2021: sort hints of type rnaseq
+cat /domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/M_natalensis/hintsfile.temp.gff | sort -n -k 4,4 | sort -s -n -k 5,5 | sort -s -n -k 3,3 | sort -s -k 1,1 >/domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/M_natalensis/hints.rnaseq.temp.sort.gff
+
+# Mon May  3 16:46:20 2021: join multiple hints
+perl /sw/bioinfo/augustus/3.4.0/rackham/scripts/join_mult_hints.pl </domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/M_natalensis/hints.rnaseq.temp.sort.gff >/domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/M_natalensis/hintsfile.temp.gff 2>/domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/M_natalensis/errors/join_mult_hints.rnaseq.stderr
+
+# Mon May  3 16:46:20 2021: filter introns, find strand and change score to 'mult' entry
+perl /sw/bioinfo/braker/2.1.1/snowy/filterIntronsFindStrand.pl /domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/M_natalensis/genome.fa /domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/M_natalensis/hintsfile.temp.gff --score 1>/domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/M_natalensis/hintsfile.gff 2>/domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/M_natalensis/errors/filterIntronsFindStrand.stderr
+
+# Mon May  3 16:46:20 2021: rm /domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/M_natalensis/hintsfile.temp.gff
+# Mon May  3 16:46:20 2021: Preparing hints for running GeneMark
+
+# Mon May  3 16:46:20 2021: Filtering intron hints for GeneMark from /domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/M_natalensis/hintsfile.gff...
+cat /domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/M_natalensis/genemark_hintsfile.gff.rnaseq | sort -n -k 4,4 | sort -s -n -k 5,5 | sort -s -k 3,3 | sort -s -k 1,1 | /sw/bioinfo/augustus/3.4.0/rackham/scripts/join_mult_hints.pl > /domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/M_natalensis/genemark_hintsfile.gff.rnaseq.tmp
+mv /domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/M_natalensis/genemark_hintsfile.gff.rnaseq.tmp /domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/M_natalensis/genemark_hintsfile.gff
+
+# Mon May  3 16:46:20 2021: Checking whether file /domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/M_natalensis/genemark_hintsfile.gff contains sufficient multiplicity information...
+# Mon May  3 16:46:20 2021: Executing GeneMark-ET
+
+# Mon May  3 16:46:20 2021: changing into GeneMark-ET directory /domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/M_natalensis/GeneMark-ET
+cd /domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/M_natalensis/GeneMark-ET
+
+# Mon May  3 16:46:20 2021: Executing gmes_petap.pl
+perl /sw/bioinfo/GeneMark/4.62-es/snowy/gmes_petap.pl --verbose --sequence=/domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/M_natalensis/genome.fa --ET=/domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/M_natalensis/genemark_hintsfile.gff --et_score 10 --max_intergenic 50000 --cores=1 1>/domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/M_natalensis/GeneMark-ET.stdout 2>/domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/M_natalensis/errors/GeneMark-ET.stderr
+

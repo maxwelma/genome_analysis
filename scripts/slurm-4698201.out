@@ -1,0 +1,268 @@
+May 11 16:08:08 ..... started STAR run
+May 11 16:08:08 ... starting to generate Genome files
+WARNING: --genomeSAindexNbases 13 is too large for the genome size=3381248, which may cause seg-fault at the mapping step. Re-run genome generation with recommended --genomeSAindexNbases 9		 May 11 16:08:08
+May 11 16:08:08 ... starting to sort Suffix Array. This may take a long time...
+May 11 16:08:08 ... sorting Suffix Array chunks and saving them to disk...
+May 11 16:08:11 ... loading chunks from disk, packing SA...
+May 11 16:08:11 ... finished generating suffix array
+May 11 16:08:11 ... generating Suffix Array index
+May 11 16:08:12 ... completed Suffix Array index
+May 11 16:08:12 ... writing Genome to disk ...
+May 11 16:08:13 ... writing Suffix Array to disk ...
+May 11 16:08:13 ... writing SAindex to disk
+May 11 16:08:16 ..... finished successfully
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719013.trim_1P.fastq.gz
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719013
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719013.trim
+May 11 16:08:16 ..... started STAR run
+May 11 16:08:16 ..... loading genome
+gzip: /home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719013.trim_2P.fastq.gz: No such file or directory
+May 11 16:08:17 ..... started mapping
+
+EXITING because of FATAL ERROR in reads input: short read sequence line: 0
+Read Name=@DJB775P1:392:D1R59ACXX:5:1101:6257:2121/1
+Read Sequence====
+DEF_readNameLengthMax=50000
+DEF_readSeqLengthMax=650
+
+May 11 16:08:17 ...... FATAL ERROR, exiting
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719014.trim_1P.fastq.gz
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719014
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719014.trim
+May 11 16:08:17 ..... started STAR run
+May 11 16:08:17 ..... loading genome
+gzip: /home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719014.trim_2P.fastq.gz: No such file or directory
+May 11 16:08:17 ..... started mapping
+
+EXITING because of FATAL ERROR in reads input: short read sequence line: 0
+Read Name=@DJB775P1:392:D1R59ACXX:5:1101:18478:2218/1
+Read Sequence====
+DEF_readNameLengthMax=50000
+DEF_readSeqLengthMax=650
+
+May 11 16:08:17 ...... FATAL ERROR, exiting
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719015.trim_1P.fastq.gz
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719015
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719015.trim
+May 11 16:08:18 ..... started STAR run
+May 11 16:08:18 ..... loading genome
+gzip: /home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719015.trim_2P.fastq.gz: No such file or directory
+May 11 16:08:18 ..... started mapping
+
+EXITING because of FATAL ERROR in reads input: short read sequence line: 0
+Read Name=@DJB775P1:392:D1R59ACXX:5:1101:2592:2225/1
+Read Sequence====
+DEF_readNameLengthMax=50000
+DEF_readSeqLengthMax=650
+
+May 11 16:08:18 ...... FATAL ERROR, exiting
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719016.trim_1P.fastq.gz
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719016
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719016.trim
+May 11 16:08:18 ..... started STAR run
+May 11 16:08:18 ..... loading genome
+gzip: /home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719016.trim_2P.fastq.gz: No such file or directory
+May 11 16:08:18 ..... started mapping
+
+EXITING because of FATAL ERROR in reads input: short read sequence line: 0
+Read Name=@DJB775P1:392:D1R59ACXX:5:1101:4843:2774/1
+Read Sequence====
+DEF_readNameLengthMax=50000
+DEF_readSeqLengthMax=650
+
+May 11 16:08:19 ...... FATAL ERROR, exiting
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719017.trim_1P.fastq.gz
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719017
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719017.trim
+May 11 16:08:19 ..... started STAR run
+May 11 16:08:19 ..... loading genome
+gzip: /home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719017.trim_2P.fastq.gz: No such file or directory
+May 11 16:08:19 ..... started mapping
+
+EXITING because of FATAL ERROR in reads input: short read sequence line: 0
+Read Name=@DJB775P1:392:D1R59ACXX:5:1101:13044:2065/1
+Read Sequence====
+DEF_readNameLengthMax=50000
+DEF_readSeqLengthMax=650
+
+May 11 16:08:19 ...... FATAL ERROR, exiting
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719018.trim_1P.fastq.gz
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719018
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719018.trim
+May 11 16:08:19 ..... started STAR run
+May 11 16:08:19 ..... loading genome
+gzip: /home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719018.trim_2P.fastq.gz: No such file or directory
+May 11 16:08:20 ..... started mapping
+
+EXITING because of FATAL ERROR in reads input: short read sequence line: 0
+Read Name=@DJB775P1:395:D1RW8ACXX:4:1101:4862:2213/1
+Read Sequence====
+DEF_readNameLengthMax=50000
+DEF_readSeqLengthMax=650
+
+May 11 16:08:20 ...... FATAL ERROR, exiting
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719204.trim_1P.fastq.gz
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719204
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719204.trim
+May 11 16:08:20 ..... started STAR run
+May 11 16:08:20 ..... loading genome
+gzip: /home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719204.trim_2P.fastq.gz: No such file or directory
+May 11 16:08:20 ..... started mapping
+
+EXITING because of FATAL ERROR in reads input: short read sequence line: 0
+Read Name=@DJB775P1:395:D1RW8ACXX:4:1101:11796:2113/1
+Read Sequence====
+DEF_readNameLengthMax=50000
+DEF_readSeqLengthMax=650
+
+May 11 16:08:20 ...... FATAL ERROR, exiting
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719206.trim_1P.fastq.gz
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719206
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719206.trim
+May 11 16:08:21 ..... started STAR run
+May 11 16:08:21 ..... loading genome
+gzip: /home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719206.trim_2P.fastq.gz: No such file or directory
+May 11 16:08:21 ..... started mapping
+
+EXITING because of FATAL ERROR in reads input: short read sequence line: 0
+Read Name=@DJB77P1:411:H0FA3ADXX:1:1101:1288:2107/1
+Read Sequence====
+DEF_readNameLengthMax=50000
+DEF_readSeqLengthMax=650
+
+May 11 16:08:21 ...... FATAL ERROR, exiting
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719207.trim_1P.fastq.gz
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719207
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719207.trim
+May 11 16:08:21 ..... started STAR run
+May 11 16:08:21 ..... loading genome
+gzip: /home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719207.trim_2P.fastq.gz: No such file or directory
+May 11 16:08:21 ..... started mapping
+
+EXITING because of FATAL ERROR in reads input: short read sequence line: 0
+Read Name=@DJB775P1:392:D1R59ACXX:5:1101:18887:2196/1
+Read Sequence====
+DEF_readNameLengthMax=50000
+DEF_readSeqLengthMax=650
+
+May 11 16:08:22 ...... FATAL ERROR, exiting
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719208.trim_1P.fastq.gz
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719208
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719208.trim
+May 11 16:08:22 ..... started STAR run
+May 11 16:08:22 ..... loading genome
+gzip: /home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719208.trim_2P.fastq.gz: No such file or directory
+May 11 16:08:22 ..... started mapping
+
+EXITING because of FATAL ERROR in reads input: short read sequence line: 0
+Read Name=@DJB775P1:392:D1R59ACXX:5:1101:7209:2095/1
+Read Sequence====
+DEF_readNameLengthMax=50000
+DEF_readSeqLengthMax=650
+
+May 11 16:08:22 ...... FATAL ERROR, exiting
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719209.trim_1P.fastq.gz
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719209
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719209.trim
+May 11 16:08:22 ..... started STAR run
+May 11 16:08:22 ..... loading genome
+gzip: /home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719209.trim_2P.fastq.gz: No such file or directory
+May 11 16:08:22 ..... started mapping
+
+EXITING because of FATAL ERROR in reads input: short read sequence line: 0
+Read Name=@DJB775P1:392:D1R59ACXX:5:1101:15343:3136/1
+Read Sequence====
+DEF_readNameLengthMax=50000
+DEF_readSeqLengthMax=650
+
+May 11 16:08:23 ...... FATAL ERROR, exiting
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719211.trim_1P.fastq.gz
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719211
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719211.trim
+May 11 16:08:23 ..... started STAR run
+May 11 16:08:23 ..... loading genome
+gzip: /home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719211.trim_2P.fastq.gz: No such file or directory
+May 11 16:08:23 ..... started mapping
+
+EXITING because of FATAL ERROR in reads input: short read sequence line: 0
+Read Name=@DJB775P1:392:D1R59ACXX:5:1101:14271:2078/1
+Read Sequence====
+DEF_readNameLengthMax=50000
+DEF_readSeqLengthMax=650
+
+May 11 16:08:23 ...... FATAL ERROR, exiting
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719212.trim_1P.fastq.gz
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719212
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719212.trim
+May 11 16:08:23 ..... started STAR run
+May 11 16:08:23 ..... loading genome
+gzip: /home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719212.trim_2P.fastq.gz: No such file or directory
+May 11 16:08:23 ..... started mapping
+
+EXITING because of FATAL ERROR in reads input: short read sequence line: 0
+Read Name=@DJB77P1:411:H0FA3ADXX:1:1101:5327:2039/1
+Read Sequence====
+DEF_readNameLengthMax=50000
+DEF_readSeqLengthMax=650
+
+May 11 16:08:24 ...... FATAL ERROR, exiting
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719213.trim_1P.fastq.gz
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719213
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719213.trim
+May 11 16:08:24 ..... started STAR run
+May 11 16:08:24 ..... loading genome
+gzip: /home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719213.trim_2P.fastq.gz: No such file or directory
+May 11 16:08:24 ..... started mapping
+
+EXITING because of FATAL ERROR in reads input: short read sequence line: 0
+Read Name=@DJB775P1:392:D1R59ACXX:5:1101:4518:2263/1
+Read Sequence====
+DEF_readNameLengthMax=50000
+DEF_readSeqLengthMax=650
+
+May 11 16:08:24 ...... FATAL ERROR, exiting
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719214.trim_1P.fastq.gz
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719214
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719214.trim
+May 11 16:08:24 ..... started STAR run
+May 11 16:08:24 ..... loading genome
+gzip: /home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719214.trim_2P.fastq.gz: No such file or directory
+May 11 16:08:25 ..... started mapping
+
+EXITING because of FATAL ERROR in reads input: short read sequence line: 0
+Read Name=@DJB775P1:392:D1R59ACXX:5:1101:17868:2199/1
+Read Sequence====
+DEF_readNameLengthMax=50000
+DEF_readSeqLengthMax=650
+
+May 11 16:08:25 ...... FATAL ERROR, exiting
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719241.trim_1P.fastq.gz
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719241
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719241.trim
+May 11 16:08:25 ..... started STAR run
+May 11 16:08:25 ..... loading genome
+gzip: /home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719241.trim_2P.fastq.gz: No such file or directory
+May 11 16:08:25 ..... started mapping
+
+EXITING because of FATAL ERROR in reads input: short read sequence line: 0
+Read Name=@DJB775P1:392:D1R59ACXX:5:1101:5312:2118/1
+Read Sequence====
+DEF_readNameLengthMax=50000
+DEF_readSeqLengthMax=650
+
+May 11 16:08:25 ...... FATAL ERROR, exiting
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719242.trim_1P.fastq.gz
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719242
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719242.trim
+May 11 16:08:25 ..... started STAR run
+May 11 16:08:25 ..... loading genome
+gzip: /home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719242.trim_2P.fastq.gz: No such file or directory
+May 11 16:08:26 ..... started mapping
+
+EXITING because of FATAL ERROR in reads input: short read sequence line: 0
+Read Name=@DJB775P1:392:D1R59ACXX:5:1101:5873:2208/1
+Read Sequence====
+DEF_readNameLengthMax=50000
+DEF_readSeqLengthMax=650
+
+May 11 16:08:26 ...... FATAL ERROR, exiting

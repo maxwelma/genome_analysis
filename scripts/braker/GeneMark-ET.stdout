@@ -1,0 +1,28 @@
+check before run
+create directories
+commit input data
+soft_mask is in the 'auto' mode. soft_mask was set to: 1000
+data report
+commit training data
+training data report
+prepare initial model
+get GC of sequence
+GC 45
+build initial ET model
+running step ET_A
+running gm.hmm on local system
+1 contigs in training
+concatenate predictions: /domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/GeneMark-ET/run/ET_A_1
+training level ET_A: /domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/GeneMark-ET/run/ET_A_1
+From 3279 loaded 3279 and ignored dublications 0
+exon	no_match	match_one	match_two
+Initial	74	3	0
+Internal	47	7	4
+Terminal	71	4	0
+Single	32	0	0
+CDS_no_match	all	short	long	seq_short	seq_long
+CDS_no_match	224	215	9	68001	10967
+Intergenic	all	between_match	seq_match
+Intergenic:	108	1	19026
+error, no valid sequences were found
+error on call: /sw/bioinfo/GeneMark/4.62-es/rackham/make_nt_freq_mat.pl --cfg /domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/GeneMark-ET/run.cfg --section stop_TAA   --format TERM_TAA

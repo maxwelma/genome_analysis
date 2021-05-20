@@ -1,0 +1,1 @@
+/domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/M.Natalensis/GeneMark-ET/run/ET_ini/et_ini.mod

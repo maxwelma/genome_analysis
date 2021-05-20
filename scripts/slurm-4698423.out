@@ -1,0 +1,166 @@
+May 11 17:00:10 ..... started STAR run
+May 11 17:00:10 ... starting to generate Genome files
+WARNING: --genomeSAindexNbases 13 is too large for the genome size=3381248, which may cause seg-fault at the mapping step. Re-run genome generation with recommended --genomeSAindexNbases 9		 May 11 17:00:11
+May 11 17:00:11 ... starting to sort Suffix Array. This may take a long time...
+May 11 17:00:11 ... sorting Suffix Array chunks and saving them to disk...
+May 11 17:00:14 ... loading chunks from disk, packing SA...
+May 11 17:00:14 ... finished generating suffix array
+May 11 17:00:14 ... generating Suffix Array index
+May 11 17:00:16 ... completed Suffix Array index
+May 11 17:00:16 ... writing Genome to disk ...
+May 11 17:00:16 ... writing Suffix Array to disk ...
+May 11 17:00:16 ... writing SAindex to disk
+May 11 17:00:23 ..... finished successfully
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719013.trim_1P.fastq.gz
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719013
+sel3_SRR1719013
+May 11 17:00:23 ..... started STAR run
+May 11 17:00:23 ..... loading genome
+May 11 17:00:24 ..... started mapping
+May 11 17:01:40 ..... finished mapping
+May 11 17:01:40 ..... started sorting BAM
+May 11 17:01:45 ..... finished successfully
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719014.trim_1P.fastq.gz
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719014
+sel3_SRR1719014
+May 11 17:01:45 ..... started STAR run
+May 11 17:01:45 ..... loading genome
+May 11 17:01:45 ..... started mapping
+May 11 17:03:05 ..... finished mapping
+May 11 17:03:05 ..... started sorting BAM
+May 11 17:03:10 ..... finished successfully
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719015.trim_1P.fastq.gz
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719015
+sel3_SRR1719015
+May 11 17:03:10 ..... started STAR run
+May 11 17:03:10 ..... loading genome
+May 11 17:03:10 ..... started mapping
+May 11 17:04:54 ..... finished mapping
+May 11 17:04:54 ..... started sorting BAM
+May 11 17:05:00 ..... finished successfully
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719016.trim_1P.fastq.gz
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719016
+sel3_SRR1719016
+May 11 17:05:00 ..... started STAR run
+May 11 17:05:00 ..... loading genome
+May 11 17:05:01 ..... started mapping
+May 11 17:07:03 ..... finished mapping
+May 11 17:07:04 ..... started sorting BAM
+May 11 17:07:08 ..... finished successfully
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719017.trim_1P.fastq.gz
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719017
+sel3_SRR1719017
+May 11 17:07:08 ..... started STAR run
+May 11 17:07:08 ..... loading genome
+May 11 17:07:09 ..... started mapping
+May 11 17:08:38 ..... finished mapping
+May 11 17:08:39 ..... started sorting BAM
+May 11 17:08:44 ..... finished successfully
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719018.trim_1P.fastq.gz
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719018
+sel3_SRR1719018
+May 11 17:08:44 ..... started STAR run
+May 11 17:08:44 ..... loading genome
+May 11 17:08:44 ..... started mapping
+May 11 17:10:25 ..... finished mapping
+May 11 17:10:26 ..... started sorting BAM
+May 11 17:10:31 ..... finished successfully
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719204.trim_1P.fastq.gz
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719204
+sel3_SRR1719204
+May 11 17:10:31 ..... started STAR run
+May 11 17:10:31 ..... loading genome
+May 11 17:10:32 ..... started mapping
+May 11 17:11:50 ..... finished mapping
+May 11 17:11:50 ..... started sorting BAM
+May 11 17:11:54 ..... finished successfully
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719206.trim_1P.fastq.gz
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719206
+sel3_SRR1719206
+May 11 17:11:54 ..... started STAR run
+May 11 17:11:54 ..... loading genome
+May 11 17:11:55 ..... started mapping
+May 11 17:14:17 ..... finished mapping
+May 11 17:14:17 ..... started sorting BAM
+May 11 17:14:23 ..... finished successfully
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719207.trim_1P.fastq.gz
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719207
+sel3_SRR1719207
+May 11 17:14:23 ..... started STAR run
+May 11 17:14:23 ..... loading genome
+May 11 17:14:23 ..... started mapping
+May 11 17:15:56 ..... finished mapping
+May 11 17:15:56 ..... started sorting BAM
+May 11 17:16:01 ..... finished successfully
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719208.trim_1P.fastq.gz
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719208
+sel3_SRR1719208
+May 11 17:16:01 ..... started STAR run
+May 11 17:16:01 ..... loading genome
+May 11 17:16:01 ..... started mapping
+May 11 17:17:15 ..... finished mapping
+May 11 17:17:16 ..... started sorting BAM
+May 11 17:17:20 ..... finished successfully
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719209.trim_1P.fastq.gz
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719209
+sel3_SRR1719209
+May 11 17:17:20 ..... started STAR run
+May 11 17:17:20 ..... loading genome
+May 11 17:17:20 ..... started mapping
+May 11 17:18:30 ..... finished mapping
+May 11 17:18:30 ..... started sorting BAM
+May 11 17:18:35 ..... finished successfully
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719211.trim_1P.fastq.gz
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719211
+sel3_SRR1719211
+May 11 17:18:35 ..... started STAR run
+May 11 17:18:35 ..... loading genome
+May 11 17:18:35 ..... started mapping
+May 11 17:20:00 ..... finished mapping
+May 11 17:20:00 ..... started sorting BAM
+May 11 17:20:04 ..... finished successfully
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719212.trim_1P.fastq.gz
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719212
+sel3_SRR1719212
+May 11 17:20:05 ..... started STAR run
+May 11 17:20:05 ..... loading genome
+May 11 17:20:05 ..... started mapping
+May 11 17:22:32 ..... finished mapping
+May 11 17:22:32 ..... started sorting BAM
+May 11 17:22:37 ..... finished successfully
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719213.trim_1P.fastq.gz
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719213
+sel3_SRR1719213
+May 11 17:22:37 ..... started STAR run
+May 11 17:22:37 ..... loading genome
+May 11 17:22:37 ..... started mapping
+May 11 17:24:29 ..... finished mapping
+May 11 17:24:29 ..... started sorting BAM
+May 11 17:24:34 ..... finished successfully
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719214.trim_1P.fastq.gz
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719214
+sel3_SRR1719214
+May 11 17:24:34 ..... started STAR run
+May 11 17:24:34 ..... loading genome
+May 11 17:24:34 ..... started mapping
+May 11 17:26:25 ..... finished mapping
+May 11 17:26:25 ..... started sorting BAM
+May 11 17:26:29 ..... finished successfully
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719241.trim_1P.fastq.gz
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719241
+sel3_SRR1719241
+May 11 17:26:30 ..... started STAR run
+May 11 17:26:30 ..... loading genome
+May 11 17:26:30 ..... started mapping
+May 11 17:27:44 ..... finished mapping
+May 11 17:27:44 ..... started sorting BAM
+May 11 17:27:48 ..... finished successfully
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719242.trim_1P.fastq.gz
+/home/mama5390/genome_analysis/data/raw_data/rna_seq/trimmed/P/sel3_SRR1719242
+sel3_SRR1719242
+May 11 17:27:49 ..... started STAR run
+May 11 17:27:49 ..... loading genome
+May 11 17:27:49 ..... started mapping
+May 11 17:29:42 ..... finished mapping
+May 11 17:29:43 ..... started sorting BAM
+May 11 17:29:47 ..... finished successfully

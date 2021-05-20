@@ -1,0 +1,17 @@
+#!/bin/bash -l
+
+#SBATCH -A g2021012
+#SBATCH -M snowy
+#SBATCH -p core
+#SBATCH -n 2
+#SBATCH -t 02:00:00
+#SBATCH -J htseq
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user matilda.maxwell.5390@student.uu.se
+
+
+# Load modules
+module load bioinfo-tools
+module load htseq
+
+/sw/bioinfo/htseq/0.12.4/snowy/bin/htseq-count /home/mama5390/genome_analysis/genome_analysis/out_files/star_alignment/new/star_alignment_new_sel3_SRR1719013Aligned.out.sam,/home/mama5390/genome_analysis/genome_analysis/out_files/star_alignment/new/star_alignment_new_sel3_SRR1719014Aligned.out.sam,/home/mama5390/genome_analysis/genome_analysis/out_files/star_alignment/new/star_alignment_new_sel3_SRR1719015Aligned.out.sam,/home/mama5390/genome_analysis/genome_analysis/out_files/star_alignment/new/star_alignment_new_sel3_SRR1719016Aligned.out.sam,/home/mama5390/genome_analysis/genome_analysis/out_files/star_alignment/new/star_alignment_new_sel3_SRR1719017Aligned.out.sam,/home/mama5390/genome_analysis/genome_analysis/out_files/star_alignment/new/star_alignment_new_sel3_SRR1719018Aligned.out.sam,/home/mama5390/genome_analysis/genome_analysis/out_files/star_alignment/new/star_alignment_new_sel3_SRR1719204Aligned.out.sam,/home/mama5390/genome_analysis/genome_analysis/out_files/star_alignment/new/star_alignment_new_sel3_SRR1719206Aligned.out.sam,/home/mama5390/genome_analysis/genome_analysis/out_files/star_alignment/new/star_alignment_new_sel3_SRR1719207Aligned.out.sam,/home/mama5390/genome_analysis/genome_analysis/out_files/star_alignment/new/star_alignment_new_sel3_SRR1719208Aligned.out.sam,/home/mama5390/genome_analysis/genome_analysis/out_files/star_alignment/new/star_alignment_new_sel3_SRR1719209Aligned.out.sam,/home/mama5390/genome_analysis/genome_analysis/out_files/star_alignment/new/star_alignment_new_sel3_SRR1719211Aligned.out.sam,/home/mama5390/genome_analysis/genome_analysis/out_files/star_alignment/new/star_alignment_new_sel3_SRR1719212Aligned.out.sam,/home/mama5390/genome_analysis/genome_analysis/out_files/star_alignment/new/star_alignment_new_sel3_SRR1719213Aligned.out.sam,/home/mama5390/genome_analysis/genome_analysis/out_files/star_alignment/new/star_alignment_new_sel3_SRR1719214Aligned.out.sam,/home/mama5390/genome_analysis/genome_analysis/out_files/star_alignment/new/star_alignment_new_sel3_SRR1719241Aligned.out.sam,/home/mama5390/genome_analysis/genome_analysis/out_files/star_alignment/new/star_alignment_new_sel3_SRR1719242Aligned.out.sam  ~/genome_analysis/data/raw_data/gff/extracted_scaff_3.gff --idattr=gene

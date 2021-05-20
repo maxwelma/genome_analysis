@@ -1,0 +1,3 @@
+
+/home/mama5390/genome_analysis/genome_analysis/out_files/trimmomatic_rna_seq/sel3_SRR1719266_1P.fq.gz	/home/mama5390/genome_analysis/genome_analysis/out_files/trimmomatic_rna_seq/sel3_SRR1719266_1U.fq.gz
+/home/mama5390/genome_analysis/genome_analysis/out_files/trimmomatic_rna_seq/sel3_SRR1719266_2P.fq.gz	/home/mama5390/genome_analysis/genome_analysis/out_files/trimmomatic_rna_seq/sel3_SRR1719266_2U.fq.gz

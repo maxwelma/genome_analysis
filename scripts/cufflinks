@@ -1,0 +1,18 @@
+#!/bin/bash -l
+
+#SBATCH -A g2021012
+#SBATCH -M snowy
+#SBATCH -p core
+#SBATCH -n 2
+#SBATCH -t 02:00:00
+#SBATCH -J cufflinks
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user matilda.maxwell.5390@student.uu.se
+
+# Load modules
+module load bioinfo-tools
+module load bowtie
+module load cufflinks
+module load emboss
+
+/sw/bioinfo/cufflinks/2.2.1/snowy/gffread -w gff_transcript.fa -g ~/genome_analysis/data/raw_data/wgs/sel3_NW_015504249.fa ~/genome_analysis/data/raw_data/gff/extracted_scaff_3.gff

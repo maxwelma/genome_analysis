@@ -1,0 +1,166 @@
+May 11 16:00:07 ..... started STAR run
+May 11 16:00:07 ... starting to generate Genome files
+WARNING: --genomeSAindexNbases 13 is too large for the genome size=3381248, which may cause seg-fault at the mapping step. Re-run genome generation with recommended --genomeSAindexNbases 9		 May 11 16:00:07
+May 11 16:00:07 ... starting to sort Suffix Array. This may take a long time...
+May 11 16:00:07 ... sorting Suffix Array chunks and saving them to disk...
+May 11 16:00:10 ... loading chunks from disk, packing SA...
+May 11 16:00:10 ... finished generating suffix array
+May 11 16:00:10 ... generating Suffix Array index
+May 11 16:00:12 ... completed Suffix Array index
+May 11 16:00:12 ... writing Genome to disk ...
+May 11 16:00:12 ... writing Suffix Array to disk ...
+May 11 16:00:12 ... writing SAindex to disk
+May 11 16:00:16 ..... finished successfully
+/var/spool/slurmd/job4698164/slurm_script: line 21: file_prefix: command not found
+
+gzip: .trim_1P.fastq.gz: No such file or directory
+May 11 16:00:16 ..... started STAR run
+May 11 16:00:16 ..... loading genome
+gzip: .trim_2P.fastq.gz: No such file or directory
+May 11 16:00:16 ..... started mapping
+May 11 16:00:16 ..... finished mapping
+May 11 16:00:16 ..... finished successfully
+/var/spool/slurmd/job4698164/slurm_script: line 21: file_prefix: command not found
+
+gzip: .trim_1P.fastq.gz: No such file or directory
+May 11 16:00:17 ..... started STAR run
+May 11 16:00:17 ..... loading genome
+gzip: .trim_2P.fastq.gz: No such file or directory
+May 11 16:00:17 ..... started mapping
+May 11 16:00:17 ..... finished mapping
+May 11 16:00:17 ..... finished successfully
+/var/spool/slurmd/job4698164/slurm_script: line 21: file_prefix: command not found
+
+gzip: .trim_1P.fastq.gz: No such file or directory
+May 11 16:00:17 ..... started STAR run
+May 11 16:00:17 ..... loading genome
+gzip: .trim_2P.fastq.gz: No such file or directory
+May 11 16:00:17 ..... started mapping
+May 11 16:00:18 ..... finished mapping
+May 11 16:00:18 ..... finished successfully
+/var/spool/slurmd/job4698164/slurm_script: line 21: file_prefix: command not found
+
+gzip: .trim_1P.fastq.gz: No such file or directory
+May 11 16:00:18 ..... started STAR run
+May 11 16:00:18 ..... loading genome
+gzip: .trim_2P.fastq.gz: No such file or directory
+May 11 16:00:18 ..... started mapping
+May 11 16:00:18 ..... finished mapping
+May 11 16:00:18 ..... finished successfully
+/var/spool/slurmd/job4698164/slurm_script: line 21: file_prefix: command not found
+
+gzip: .trim_1P.fastq.gz: No such file or directory
+May 11 16:00:18 ..... started STAR run
+May 11 16:00:18 ..... loading genome
+gzip: .trim_2P.fastq.gz: No such file or directory
+May 11 16:00:19 ..... started mapping
+May 11 16:00:19 ..... finished mapping
+May 11 16:00:19 ..... finished successfully
+/var/spool/slurmd/job4698164/slurm_script: line 21: file_prefix: command not found
+
+gzip: .trim_1P.fastq.gz: No such file or directory
+May 11 16:00:19 ..... started STAR run
+May 11 16:00:19 ..... loading genome
+gzip: .trim_2P.fastq.gz: No such file or directory
+May 11 16:00:19 ..... started mapping
+May 11 16:00:20 ..... finished mapping
+May 11 16:00:20 ..... finished successfully
+/var/spool/slurmd/job4698164/slurm_script: line 21: file_prefix: command not found
+
+gzip: .trim_1P.fastq.gz: No such file or directory
+May 11 16:00:20 ..... started STAR run
+May 11 16:00:20 ..... loading genome
+gzip: .trim_2P.fastq.gz: No such file or directory
+May 11 16:00:20 ..... started mapping
+May 11 16:00:20 ..... finished mapping
+May 11 16:00:20 ..... finished successfully
+/var/spool/slurmd/job4698164/slurm_script: line 21: file_prefix: command not found
+
+gzip: .trim_1P.fastq.gz: No such file or directory
+May 11 16:00:21 ..... started STAR run
+May 11 16:00:21 ..... loading genome
+gzip: .trim_2P.fastq.gz: No such file or directory
+May 11 16:00:21 ..... started mapping
+May 11 16:00:21 ..... finished mapping
+May 11 16:00:21 ..... finished successfully
+/var/spool/slurmd/job4698164/slurm_script: line 21: file_prefix: command not found
+
+gzip: .trim_1P.fastq.gz: No such file or directory
+May 11 16:00:21 ..... started STAR run
+May 11 16:00:21 ..... loading genome
+gzip: .trim_2P.fastq.gz: No such file or directory
+May 11 16:00:21 ..... started mapping
+May 11 16:00:22 ..... finished mapping
+May 11 16:00:22 ..... finished successfully
+/var/spool/slurmd/job4698164/slurm_script: line 21: file_prefix: command not found
+
+gzip: .trim_1P.fastq.gz: No such file or directory
+May 11 16:00:22 ..... started STAR run
+May 11 16:00:22 ..... loading genome
+gzip: .trim_2P.fastq.gz: No such file or directory
+May 11 16:00:22 ..... started mapping
+May 11 16:00:22 ..... finished mapping
+May 11 16:00:22 ..... finished successfully
+/var/spool/slurmd/job4698164/slurm_script: line 21: file_prefix: command not found
+
+gzip: .trim_1P.fastq.gz: No such file or directory
+May 11 16:00:22 ..... started STAR run
+May 11 16:00:23 ..... loading genome
+gzip: .trim_2P.fastq.gz: No such file or directory
+May 11 16:00:23 ..... started mapping
+May 11 16:00:23 ..... finished mapping
+May 11 16:00:23 ..... finished successfully
+/var/spool/slurmd/job4698164/slurm_script: line 21: file_prefix: command not found
+
+gzip: .trim_1P.fastq.gz: No such file or directory
+May 11 16:00:23 ..... started STAR run
+May 11 16:00:23 ..... loading genome
+gzip: .trim_2P.fastq.gz: No such file or directory
+May 11 16:00:23 ..... started mapping
+May 11 16:00:24 ..... finished mapping
+May 11 16:00:24 ..... finished successfully
+/var/spool/slurmd/job4698164/slurm_script: line 21: file_prefix: command not found
+
+gzip: .trim_1P.fastq.gz: No such file or directory
+May 11 16:00:24 ..... started STAR run
+May 11 16:00:24 ..... loading genome
+gzip: .trim_2P.fastq.gz: No such file or directory
+May 11 16:00:24 ..... started mapping
+May 11 16:00:24 ..... finished mapping
+May 11 16:00:24 ..... finished successfully
+/var/spool/slurmd/job4698164/slurm_script: line 21: file_prefix: command not found
+
+gzip: .trim_1P.fastq.gz: No such file or directory
+May 11 16:00:24 ..... started STAR run
+May 11 16:00:24 ..... loading genome
+gzip: .trim_2P.fastq.gz: No such file or directory
+May 11 16:00:25 ..... started mapping
+May 11 16:00:25 ..... finished mapping
+May 11 16:00:25 ..... finished successfully
+/var/spool/slurmd/job4698164/slurm_script: line 21: file_prefix: command not found
+
+gzip: .trim_1P.fastq.gz: No such file or directory
+May 11 16:00:25 ..... started STAR run
+May 11 16:00:25 ..... loading genome
+gzip: .trim_2P.fastq.gz: No such file or directory
+May 11 16:00:25 ..... started mapping
+May 11 16:00:26 ..... finished mapping
+May 11 16:00:26 ..... finished successfully
+/var/spool/slurmd/job4698164/slurm_script: line 21: file_prefix: command not found
+
+gzip: .trim_1P.fastq.gz: No such file or directory
+May 11 16:00:26 ..... started STAR run
+May 11 16:00:26 ..... loading genome
+gzip: .trim_2P.fastq.gz: No such file or directory
+May 11 16:00:26 ..... started mapping
+May 11 16:00:26 ..... finished mapping
+May 11 16:00:26 ..... finished successfully
+/var/spool/slurmd/job4698164/slurm_script: line 21: file_prefix: command not found
+
+gzip: .trim_1P.fastq.gz: No such file or directory
+May 11 16:00:26 ..... started STAR run
+May 11 16:00:26 ..... loading genome
+gzip: .trim_2P.fastq.gz: No such file or directory
+May 11 16:00:27 ..... started mapping
+May 11 16:00:27 ..... finished mapping
+May 11 16:00:27 ..... finished successfully
