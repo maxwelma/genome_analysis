@@ -16,3 +16,5 @@ module load FastQC
 
 fastqc -o /home/mama5390/genome_analysis/genome_analysis/out_files/fastqc_rna_seq_trimmed /home/mama5390/genome_analysis/genome_analysis/out_files/trimmomatic_rna_seq/*
 
+fastqc -o /home/mama5390/genome_analysis/genome_analysis/out_files/fastqc_rna_seq /home/mama5390/genome_analysis/data/raw_data/rna_seq/*
+
