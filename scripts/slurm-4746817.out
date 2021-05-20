@@ -1,3 +1,0 @@
-Error processing GFF file (line 4 of file /home/mama5390/genome_analysis/data/raw_data/gff/extracted_scaff_3.gff):
-  Feature id68440 does not contain a 'gene_id' attribute
-  [Exception type: ValueError, raised in features.py:328]
