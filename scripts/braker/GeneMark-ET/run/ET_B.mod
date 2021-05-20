@@ -1,1 +1,0 @@
-/domus/h1/mama5390/genome_analysis/genome_analysis/scripts/braker/GeneMark-ET/run/ET_B_1/ET_B_1.mod
