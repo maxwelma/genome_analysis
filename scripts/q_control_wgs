@@ -14,4 +14,4 @@ module load bioinfo-tools
 module load FastQC
 # commands
 
-fastqc -o /home/mama5390/genome_analysis/genome_analysis/out_files/fastqc_wgs /home/mama5390/genome_analysis/data/raw_data/wgs/*
+fastqc -o /home/mama5390/genome_analysis/genome_analysis/out_files/fastqc_wgs /home/mama5390/genome_analysis/data/raw_data/wgs/*trim*
