@@ -14,5 +14,5 @@ module load bioinfo-tools
 module load FastQC
 # commands
 
-fastqc -o /home/mama5390/genome_analysis/genome_analysis/out_files/fastqc_rna_seq /home/mama5390/genome_analysis/genome_analysis/raw_data/rna_seq/*
+fastqc -o /home/mama5390/genome_analysis/genome_analysis/out_files/fastqc_rna_seq /home/mama5390/genome_analysis/data/raw_data/rna_seq/*
 
