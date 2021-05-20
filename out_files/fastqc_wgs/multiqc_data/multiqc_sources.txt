@@ -1,0 +1,7 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	sel3_SRR5819794	/domus/h1/mama5390/genome_analysis/genome_analysis/out_files/fastqc_wgs/sel3_SRR5819794_trim_2U_fastqc.zip
+FastQC	all_sections	sel3_SRR5819795	/domus/h1/mama5390/genome_analysis/genome_analysis/out_files/fastqc_wgs/sel3_SRR5819795_trim_2U_fastqc.zip
+FastQC	all_sections	sel3_SRR5819796	/domus/h1/mama5390/genome_analysis/genome_analysis/out_files/fastqc_wgs/sel3_SRR5819796_trim_2U_fastqc.zip
+FastQC	all_sections	sel3_SRR5819797	/domus/h1/mama5390/genome_analysis/genome_analysis/out_files/fastqc_wgs/sel3_SRR5819797_trim_2U_fastqc.zip
+FastQC	all_sections	sel3_SRR5819798	/domus/h1/mama5390/genome_analysis/genome_analysis/out_files/fastqc_wgs/sel3_SRR5819798_trim_2U_fastqc.zip
+FastQC	all_sections	sel3_SRR5819799	/domus/h1/mama5390/genome_analysis/genome_analysis/out_files/fastqc_wgs/sel3_SRR5819799_trim_2U_fastqc.zip
